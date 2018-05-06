@@ -92,7 +92,7 @@ namespace KScript
                     }
                     else
                     {
-                        Debug.Log("[KScript] Compilation failes on file " + file.url);
+                        Debug.Log("[KScript] Compilation failed on file " + file.url);
                         foreach (CompilerError err in context.Errors)
                         {
                             Debug.Log(err.ToString());
