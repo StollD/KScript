@@ -28,7 +28,7 @@ namespace KScript
         }
 
         /// <summary>
-        /// Transform all yaml files in GameDatabase into ConfigNodes
+        /// Transform all .boo files into assemblies
         /// </summary>
         void OnGameDatabaseLoaded()
         {
