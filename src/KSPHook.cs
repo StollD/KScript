@@ -21,6 +21,7 @@ namespace KScript
         EditorVAB,
         Flight,
         TrackingStation,
+        PSystemSpawn
     }
 
     /// <summary>

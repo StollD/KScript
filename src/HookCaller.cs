@@ -204,4 +204,13 @@ namespace KScript
             get { return ScriptScene.TrackingStation; }
         }
     }
+    
+    [KSPAddon(KSPAddon.Startup.PSystemSpawn, false)]
+    public class __HookCallerPSystemSpawn : HookCaller
+    {
+        public override ScriptScene Scene
+        {
+            get { return ScriptScene.PSystemSpawn; }
+        }
+    }
 }
