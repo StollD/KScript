@@ -71,7 +71,7 @@ namespace KScript
             {
                 UrlDir.UrlFile file = directory.files[i];
                 
-                // Did we found a YAML file?
+                // Did we found a boo file or a csharp file?
                 if (file.fileExtension == "boo")
                 {
                     // Compile the file

@@ -113,7 +113,7 @@ namespace KScript
 
         protected override void Awake()
         {
-            if (HighLogic.LoadedScene == GameScenes.LOADING || HighLogic.LoadedScene == GameScenes.PSYSTEM)
+            if (HighLogic.LoadedScene == GameScenes.LOADING)
             {
                 DestroyImmediate(this);
             }
